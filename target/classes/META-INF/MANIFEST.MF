@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1432156659953
+Build-Jdk: 1.7.0_71
+Built-By: mfentanes
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache ServiceMix :: Camel OSGi Bundle
+Bundle-SymbolicName: tx-jms-router
+Bundle-Version: 1.9.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: tutorial;uses:="javax.sql,org.apache.camel,org.springfra
+ mework.jdbc.core";version="1.9.0"
+Import-Package: javax.sql,org.apache.activemq,org.apache.camel;version="
+ [2.12,3)",org.apache.camel.component.jms;version="[2.12,3)",org.apache.
+ camel.osgi;version="[2.12,3)",org.apache.camel.spring.spi;version="[2.1
+ 2,3)",org.postgresql,org.springframework.jdbc.core;version="[3.1,4)",or
+ g.springframework.jdbc.datasource;version="[3.1,4)",org.springframework
+ .jms.connection
+Tool: Bnd-1.50.0
